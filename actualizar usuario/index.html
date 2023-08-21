@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualizar usuario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Mi Logo">
+        </div>
+        <div class="linea">
+            <img src="linea.png" alt="Mi linea">
+        </div>
+        <nav>
+            <ul>
+                <li>Actualizar usuario</li>
+                <li>PARKING SENA</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Contenido principal de la página -->
+    </main>
+    <div class="formulario">
+        <form method="post">
+            <div class="campo">
+                <input type="text" required>
+                <label>Correo electrónico</label>
+            </div>
+            <div class="campo">
+                <input type="password" required>
+                <label>Contraseña</label>
+            </div>
+            <div class="campo">
+                <input type="text" required>
+                <label for="Tipo">Tipo documento</label>
+                <select id="Tipo" name="Tipo">
+                    <option value="Cedula de ciudadania" selected>Cedula de ciudadania</option>
+                    <option value="Tarjeta de identidad">Tarjeta de identidad</option>
+                    <option value="Cedula extranjera">Cedula extranjera</option>
+                </select>
+            </div>
+            <div class="campo">
+                <input type="text" required>
+                <label>No documento</label>
+            </div>
+            <button class="btn">Actualizar</button>
+        </form>
+    </div>
+    <footer>
+        <nav>
+            <ul>
+                <li>CALLE 52 #13 - 65</li>
+                <li>PARKING SENA 2023</li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
